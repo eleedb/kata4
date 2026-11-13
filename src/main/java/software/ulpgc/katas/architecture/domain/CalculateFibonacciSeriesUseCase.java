@@ -1,9 +1,9 @@
 package software.ulpgc.katas.architecture.domain;
 
 import software.ulpgc.katas.architecture.model.Series;
-import software.ulpgc.katas.architecture.ports.SeriesSerializer;
 import software.ulpgc.katas.architecture.ports.Input;
 import software.ulpgc.katas.architecture.ports.Output;
+import software.ulpgc.katas.architecture.ports.SeriesSerializer;
 
 public class CalculateFibonacciSeriesUseCase implements UseCase {
     private final SeriesSerializer serializer;
@@ -28,7 +28,7 @@ public class CalculateFibonacciSeriesUseCase implements UseCase {
         };
     }
 
-    private static Series fibonacci(int n) {
+    private Series fibonacci(int n) {
         Series series = new Series();
         int a = 0;
         int b = 1;
