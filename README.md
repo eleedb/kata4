@@ -51,6 +51,14 @@ La kata se ha repetido 3 veces, visibles en las distintas ramas develop_numeroDe
 ---
 
 ## 7. Verificación de funcionamiento
+Se adjuntan cuatro imágenes, en la primera se muestra la clase Main que se ejecuta, en la segunda se muestra la salida de la terminal sin errores, en la tercera se muestra el contenido de http://localhost:8081/fibonacci , y en la ultima se muestra el contenido de http://localhost:8081/fibonacci?n=10
+
+<img width="1255" height="340" alt="image" src="https://github.com/user-attachments/assets/f411e6ae-9ea7-49a5-8ffa-b6d0f0345e0e" />
+<img width="1723" height="605" alt="image" src="https://github.com/user-attachments/assets/88b81f80-cd07-4db9-bf61-b0bc67877a36" />
+<img width="145" height="42" alt="image" src="https://github.com/user-attachments/assets/5c890ffc-f347-4b3c-b14c-4029d3d097cd" />
+<img width="352" height="42" alt="image" src="https://github.com/user-attachments/assets/4a738c37-1c6a-4ed2-b2ab-2846b77af129" />
+
+
 
 
 
