@@ -39,18 +39,18 @@ Dentro del paquete principal software.ulpgc.katas nos encontramos dos paquetes:
 
 ## 4. Compilación y ejecución
 Desde IntelliJ IDEA:
-1. Abrir la carpeta raíz kata3 en IntelliJ IDEA.
+1. Abrir la carpeta raíz kata4 en IntelliJ IDEA.
 2. Navegar a src/main/java/software/ulpgc/katas/infrastructure/Main.java 
 3. Ejecutar la clase utilizando el icono de ejecución del entorno.
 
 ---
 
-## 6. Flujo Git y repetición
+## 5. Flujo Git y repetición
 La kata se ha repetido 3 veces, visibles en las distintas ramas develop_numeroDeRepeticion
 
 ---
 
-## 7. Verificación de funcionamiento
+## 6. Verificación de funcionamiento
 Se adjuntan cuatro imágenes, en la primera se muestra la clase Main que se ejecuta, en la segunda se muestra la salida de la terminal sin errores, en la tercera se muestra el contenido de http://localhost:8081/fibonacci , y en la ultima se muestra el contenido de http://localhost:8081/fibonacci?n=10
 
 <img width="1255" height="340" alt="image" src="https://github.com/user-attachments/assets/f411e6ae-9ea7-49a5-8ffa-b6d0f0345e0e" />
