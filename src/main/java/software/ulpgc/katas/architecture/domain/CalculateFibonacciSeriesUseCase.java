@@ -30,10 +30,10 @@ public class CalculateFibonacciSeriesUseCase implements UseCase {
 
     private Series fibonacci(int n) {
         Series series = new Series();
-        int a =0;
-        int b = 1;
-        for (int i = 0; i < n; i++) {
-            series.put(a);
+        int a=0;
+        int b=1;
+        for(int i=0;i<n;i++){
+            series = series.put(a);
             a = b;
             b += series.last();
         }
