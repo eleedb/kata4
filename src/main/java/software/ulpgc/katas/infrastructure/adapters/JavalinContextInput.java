@@ -3,8 +3,6 @@ package software.ulpgc.katas.infrastructure.adapters;
 import io.javalin.http.Context;
 import software.ulpgc.katas.architecture.ports.Input;
 
-import java.io.Serializable;
-
 public class JavalinContextInput implements Input {
     private final Context context;
 
@@ -13,12 +11,11 @@ public class JavalinContextInput implements Input {
     }
 
     @Override
-    public Parameter get(String key) {
-        return new Parameter(){
-
+    public Parameter get(String n) {
+        return new Parameter() {
             @Override
             public String asString() {
-                return context.queryParam(key);
+                return context.queryParam(n);
             }
 
             @Override

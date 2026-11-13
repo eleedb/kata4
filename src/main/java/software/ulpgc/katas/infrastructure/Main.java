@@ -8,7 +8,6 @@ import software.ulpgc.katas.architecture.ports.Output;
 import software.ulpgc.katas.infrastructure.adapters.JavalinContextInput;
 import software.ulpgc.katas.infrastructure.adapters.JsonSeriesSerializer;
 
-
 public class Main {
     static void main() {
         Javalin.create(c -> init(c)).start(8081);
