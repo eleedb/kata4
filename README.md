@@ -34,7 +34,7 @@ Dentro del paquete principal software.ulpgc.katas nos encontramos dos paquetes:
 
 ### infrastructure
 - __Paquete adapters__: contiene las clases JavalinContextInput que se usará para obtener la información de entrada, y JsonSeriesSerializer que serializa una serie usando Gson
-- - __Clase Main__: usa Javalin obteniendo una entrada, procesándola y proporcionando una salida
+- __Clase Main__: usa Javalin obteniendo una entrada, procesándola y proporcionando una salida
 ---
 
 ## 4. Compilación y ejecución
